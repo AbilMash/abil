@@ -1,5 +1,12 @@
-document.querySelector('.p1').style.color = 'green'
-document.querySelector('.p2').style.color = 'green'
-document.querySelector('.p3').style.color = 'green'
-document.querySelector('.p4').style.color = 'red'
-document.querySelector('.p5').style.color = 'red'
+let coloring = () => {
+    let myNodelist = document.querySelectorAll(".element");
+    for (let i = 0; i < myNodelist.length; i++){
+        if (i < 3) {
+            myNodelist[i].style.color = "red";
+        } else {
+            myNodelist[i].style.color = "green";
+        }
+    }
+}
+coloring();
+
