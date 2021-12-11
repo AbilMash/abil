@@ -1,0 +1,5 @@
+document.querySelector('.p1').style.color = 'green'
+document.querySelector('.p2').style.color = 'green'
+document.querySelector('.p3').style.color = 'green'
+document.querySelector('.p4').style.color = 'red'
+document.querySelector('.p5').style.color = 'red'
